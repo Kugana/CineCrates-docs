@@ -1,0 +1,8 @@
+# 編輯器
+.idea/
+.vscode/
+*.swp
+
+# 系統
+Thumbs.db
+.DS_Store
