@@ -6,8 +6,11 @@ No model plugin, no problem. One line turns the crate into an ordinary block:
 block: CHEST
 ```
 
+![A block crate with its hologram](../assets/block-crates.png)
+
 The block is placed at the placement coordinate when the crate spawns, and
-removed when it is unplaced.
+removed when it is unplaced. The floating text above it is the crate's
+`hologram:` — block crates and model crates handle it the same way.
 
 Everything else behaves identically — holograms, click handling, every
 animation, rewards, keys, limits, the preview screen. Nothing in CineCrates is
