@@ -20,15 +20,15 @@ animation: cinematic
 | `gui` | CS:GO 風格的橫向捲動條加上指針。 |
 | `instant` | 沒有動畫，獎勵直接進背包。 |
 
-![cinematic 動畫](../../assets/anim-cinematic.gif)
+![cinematic 動畫](../assets/anim-cinematic.gif)
 
 *`cinematic` —— 相機被接管，獎勵落在鏡頭之內。*
 
-![roulette 動畫](../../assets/anim-roulette.gif)
+![roulette 動畫](../assets/anim-roulette.gif)
 
 *`roulette` —— 物品繞著箱子轉動並逐漸停下。*
 
-![fountain 動畫](../../assets/anim-fountain.gif)
+![fountain 動畫](../assets/anim-fountain.gif)
 
 *`fountain` —— 收尾時一次噴出所有獎勵的爆發。*
 

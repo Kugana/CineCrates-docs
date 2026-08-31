@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../assets/logo.png" alt="CineCrates" width="300">
+  <img src="assets/logo.png" alt="CineCrates" width="300">
 </div>
 
 # CineCrates

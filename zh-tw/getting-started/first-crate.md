@@ -10,7 +10,7 @@
 
 這會產生 `plugins/CineCrates/crates/starter.yml`，帶著合理的預設值，並開啟編輯器。
 
-![箱子編輯畫面](../../assets/admin-gui.png)
+![箱子編輯畫面](../assets/admin-gui.png)
 
 這裡每一個按鈕都會寫進箱子檔案，所以你在遊戲中設定的東西之後都能用手改，反過來
 也一樣。

@@ -6,7 +6,7 @@
 block: CHEST
 ```
 
-![帶全息文字的方塊型箱子](../../assets/block-crates.png)
+![帶全息文字的方塊型箱子](../assets/block-crates.png)
 
 方塊會在箱子生成時放到放置點的座標上，取消放置時移除。它上方那段浮空文字是箱子的
 `hologram:` —— 方塊型箱子與模型箱子的處理方式完全相同。

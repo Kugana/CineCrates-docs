@@ -48,7 +48,7 @@ cinematic:
 
 在箱子的時間軸加上 `camera_move` 步驟，相機就會以平滑的緩動在它們之間滑行：
 
-![帶運鏡路徑的開箱](../../assets/anim-camera.gif)
+![帶運鏡路徑的開箱](../assets/anim-camera.gif)
 
 ```yaml
 cinematic:
