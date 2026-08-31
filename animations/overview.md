@@ -21,6 +21,18 @@ crate, done.
 | `gui` | A CS:GO-style scrolling strip with a pointer. |
 | `instant` | No animation; the reward goes straight to the inventory. |
 
+![The cinematic animation](../assets/anim-cinematic.gif)
+
+*`cinematic` — the camera is taken over and the reward lands in shot.*
+
+![The roulette animation](../assets/anim-roulette.gif)
+
+*`roulette` — items orbit the crate and slow to a stop.*
+
+![The fountain animation](../assets/anim-fountain.gif)
+
+*`fountain` — a burst that erupts with every reward at the finale.*
+
 `in-place`, `three-toss`, `roulette`, `fountain`, `rain`, `spiral` and `beam`
 are together called the **in-place family** throughout this documentation —
 they share the same staging code and the same tuning keys.

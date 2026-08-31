@@ -48,6 +48,12 @@ You never have to do that arithmetic:
 prints the computed percentages, and the preview screen shows the same numbers
 to players.
 
+![The preview screen, showing a reward's real chance](../assets/preview.png)
+
+The chance in that tooltip is derived from the weights every time the screen
+is drawn. There is no field to type a number into, so what a player is shown
+cannot drift away from what the crate actually does.
+
 ## Several rewards per opening
 
 ```yaml

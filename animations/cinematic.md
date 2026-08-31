@@ -49,6 +49,8 @@ coordinates.
 
 ## Camera paths
 
+![A crate opening with a camera path](../assets/anim-camera.gif)
+
 Add `camera_move` steps to the crate's timeline and the camera glides between
 them with smooth easing:
 

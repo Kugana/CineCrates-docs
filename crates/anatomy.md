@@ -112,7 +112,8 @@ preview:
 ```
 
 The odds shown on this screen are **computed from the weights**, not typed in,
-so they cannot drift away from the actual drop rates.
+so they cannot drift away from the actual drop rates — see
+[Rewards and odds](rewards.md) for what a player sees.
 
 ## After editing
 

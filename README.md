@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/logo.png" alt="CineCrates" width="300">
+</div>
+
 # CineCrates
 
 Camera-driven crate openings for Minecraft servers. One jar covers Spigot,

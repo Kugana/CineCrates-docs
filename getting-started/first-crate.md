@@ -11,6 +11,11 @@ Ten minutes, no YAML editing. Everything below happens in game.
 This writes `plugins/CineCrates/crates/starter.yml` with sensible defaults and
 opens the editor.
 
+![The crate editor](../assets/admin-gui.png)
+
+Every button here writes to the crate file, so anything you set in game can
+also be edited by hand later — and the other way round.
+
 ## 2. Add rewards
 
 Hold the item you want to give away and click **add reward** in the editor, or:
