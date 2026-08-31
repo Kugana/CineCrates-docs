@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img" aria-labelledby="title desc">
+  <title id="title">Discord button</title>
+  <desc id="desc">A transparent CineCrates themed Discord community button.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0a6"/><stop offset=".3" stop-color="#ffd159"/>
+      <stop offset=".68" stop-color="#eca017"/><stop offset="1" stop-color="#9f5405"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".42" stop-color="#edf4fa"/>
+      <stop offset=".78" stop-color="#b8c5d1"/><stop offset="1" stop-color="#748393"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17304a"/><stop offset=".45" stop-color="#091725"/><stop offset="1" stop-color="#03080e"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#057e9a" stop-opacity="0"/><stop offset=".5" stop-color="#20d6f4"/><stop offset="1" stop-color="#7bf4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-80%" width="170%" height="280%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/><feOffset dy="6" result="off"/>
+      <feColorMatrix in="off" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-80%" y="-200%" width="260%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M72 20h626l42 60-42 60H72L20 80z" fill="#02060b"/>
+    <path d="M78 27h614l34 53-34 53H78L33 80z" fill="url(#plate)" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M166 34h520l30 46-30 46H166" fill="none" stroke="#23465f" stroke-width="2"/>
+    <path d="M150 128h536" stroke="url(#cyan)" stroke-width="4" filter="url(#glow)"/>
+    <path d="M682 50l20 30-20 30" fill="none" stroke="url(#gold)" stroke-width="6"/>
+    <g fill="#f2b129" opacity=".75">
+      <rect x="642" y="49" width="19" height="10" rx="2"/><rect x="642" y="74" width="19" height="10" rx="2"/><rect x="642" y="99" width="19" height="10" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Original chat icon medallion -->
+  <g filter="url(#shadow)">
+    <path d="M36 80l48-48h58l48 48-48 48H84z" fill="#03080e" stroke="#02060b" stroke-width="9"/>
+    <path d="M46 80l42-40h50l42 40-42 40H88z" fill="url(#plate)" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M78 58h61c8 0 14 6 14 14v22c0 8-6 14-14 14h-26l-18 13 4-13H78c-8 0-14-6-14-14V72c0-8 6-14 14-14z" fill="none" stroke="#42def8" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="88" cy="83" r="4" fill="#f5bd35"/><circle cx="108" cy="83" r="4" fill="#f5bd35"/><circle cx="128" cy="83" r="4" fill="#f5bd35"/>
+  </g>
+
+  <text x="421" y="104" text-anchor="middle" font-family="Segoe UI Black, Arial Black, sans-serif" font-size="67" font-weight="900" letter-spacing="4" stroke="#02060b" stroke-width="11" paint-order="stroke" fill="url(#silver)" filter="url(#shadow)">DISCORD</text>
+  <path d="M397 118h48" stroke="#24d9f5" stroke-width="3" filter="url(#glow)"/>
+</svg>

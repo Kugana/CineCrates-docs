@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180" role="img" aria-labelledby="title desc">
+  <title id="title">CineCrates horizontal title divider</title>
+  <desc id="desc">A transparent black, gold, silver, and cyan cinematic title divider.</desc>
+
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0a6"/>
+      <stop offset="0.28" stop-color="#ffd35b"/>
+      <stop offset="0.62" stop-color="#f0a217"/>
+      <stop offset="1" stop-color="#a95b06"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#eef5fb"/>
+      <stop offset="0.72" stop-color="#b9c6d2"/>
+      <stop offset="1" stop-color="#748393"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#071321" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#102a46"/>
+      <stop offset="0.58" stop-color="#173959"/>
+      <stop offset="1" stop-color="#071321"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#087f9b" stop-opacity="0"/>
+      <stop offset="0.38" stop-color="#18c5e7"/>
+      <stop offset="1" stop-color="#63efff"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13283d"/>
+      <stop offset="0.48" stop-color="#071321"/>
+      <stop offset="1" stop-color="#03080e"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feOffset dy="6" result="offset"/>
+      <feColorMatrix in="offset" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cyanGlow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="leftRailClip">
+      <path d="M28 72H470l42 18-42 18H28l22-18z"/>
+    </clipPath>
+    <clipPath id="rightRailClip">
+      <path d="M1572 72h-442l-42 18 42 18h442l-22-18z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Left cinematic rail -->
+  <g>
+    <path d="M28 72H470l42 18-42 18H28l22-18z" fill="url(#rail)" stroke="#214662" stroke-width="2"/>
+    <path d="M30 78H470l27 12-27 12H30" fill="none" stroke="url(#cyan)" stroke-width="4" filter="url(#cyanGlow)"/>
+    <g clip-path="url(#leftRailClip)" opacity=".82">
+      <path d="M68 65l34 50h42L110 65zM165 65l34 50h62l-34-50zM280 65l34 50h74l-34-50z" fill="#1ab4d2" opacity=".24"/>
+      <path d="M376 65l34 50h64l-34-50z" fill="url(#gold)" opacity=".75"/>
+    </g>
+    <g fill="#f4b329" opacity=".78">
+      <rect x="84" y="84" width="22" height="12" rx="2"/><rect x="126" y="84" width="22" height="12" rx="2"/>
+      <rect x="168" y="84" width="22" height="12" rx="2"/><rect x="210" y="84" width="22" height="12" rx="2"/>
+      <rect x="252" y="84" width="22" height="12" rx="2"/><rect x="294" y="84" width="22" height="12" rx="2"/>
+    </g>
+    <path d="M454 63l50 27-50 27h44l52-27-52-27z" fill="url(#gold)" stroke="#4f2e08" stroke-width="2"/>
+  </g>
+
+  <!-- Right cinematic rail -->
+  <g>
+    <path d="M1572 72h-442l-42 18 42 18h442l-22-18z" fill="url(#rail)" stroke="#214662" stroke-width="2"/>
+    <path d="M1570 78h-440l-27 12 27 12h440" fill="none" stroke="url(#cyan)" stroke-width="4" filter="url(#cyanGlow)"/>
+    <g clip-path="url(#rightRailClip)" opacity=".82">
+      <path d="M1532 65l-34 50h-42l34-50zM1435 65l-34 50h-62l34-50zM1320 65l-34 50h-74l34-50z" fill="#1ab4d2" opacity=".24"/>
+      <path d="M1224 65l-34 50h-64l34-50z" fill="url(#gold)" opacity=".75"/>
+    </g>
+    <g fill="#f4b329" opacity=".78">
+      <rect x="1494" y="84" width="22" height="12" rx="2"/><rect x="1452" y="84" width="22" height="12" rx="2"/>
+      <rect x="1410" y="84" width="22" height="12" rx="2"/><rect x="1368" y="84" width="22" height="12" rx="2"/>
+      <rect x="1326" y="84" width="22" height="12" rx="2"/><rect x="1284" y="84" width="22" height="12" rx="2"/>
+    </g>
+    <path d="M1146 63l-50 27 50 27h-44l-52-27 52-27z" fill="url(#gold)" stroke="#4f2e08" stroke-width="2"/>
+  </g>
+
+  <!-- Center title plate -->
+  <g filter="url(#shadow)">
+    <path d="M505 29h590l46 61-46 61H505l-46-61z" fill="url(#plate)" stroke="#02060b" stroke-width="12"/>
+    <path d="M515 34h570l38 56-38 56H515l-38-56z" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M518 138h564" stroke="#26dfff" stroke-width="3" filter="url(#cyanGlow)"/>
+    <path d="M800 137l13 13-13 13-13-13z" fill="#18cdeb" stroke="#c7f9ff" stroke-width="2"/>
+    <path d="M800 143l7 7-7 7-7-7z" fill="#08324a"/>
+  </g>
+
+  <!-- Exact brand text -->
+  <g filter="url(#shadow)" font-family="Segoe UI Black, Arial Black, sans-serif" font-size="82" font-weight="900" letter-spacing="2">
+    <text x="800" y="118" text-anchor="middle" stroke="#02060b" stroke-width="13" paint-order="stroke" aria-label="CINECRATES">
+      <tspan fill="url(#gold)">CINE</tspan><tspan fill="url(#silver)">CRATES</tspan>
+    </text>
+    <text x="800" y="114" text-anchor="middle" stroke="#fff5cc" stroke-opacity=".17" stroke-width="1" paint-order="stroke">
+      <tspan fill="url(#gold)">CINE</tspan><tspan fill="url(#silver)">CRATES</tspan>
+    </text>
+  </g>
+</svg>
